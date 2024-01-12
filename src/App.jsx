@@ -10,7 +10,6 @@ function App() {
     <div className="main-card">
     <Header />
     <Main />
-    <Footer />
     </div>
   )
 }

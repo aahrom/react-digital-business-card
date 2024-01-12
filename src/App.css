@@ -28,7 +28,6 @@ text-align: center;
   display: flex;
   text-align: center;
   padding: 20px;
-  background-color: blue;;
 }
 
 .socials > button {
@@ -39,6 +38,22 @@ text-align: center;
   font-size: 14px;
   padding: 9px 13px 9px 11px;
   margin: 0 auto;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.email--button{
+  display: flex;
+}
+
+.linkedin--button{
+  background-color: #0077BB;
+  color: white;
+  display: flex;
 }
 
 .portrait-image{
@@ -51,20 +66,20 @@ text-align: center;
   background-color: #F5F5F5;
   border-radius: 10px;
   margin: auto;
-  height: 800px;
+  height: 715px;
   width: 317px;
   
 }
 
 .intro {
-  background-color: yellow;
-  margin: 30px;
+  margin: 10px;
 }
 
 .about--description, .interests--description{
-  font-size: 10.24px
+  font-size: 10.24px;
+  margin: 10px;
 }
 
-.footer{
-  background-color: #D5D4D8;
+.about--title, .interests--title{
+  margin: 10px;
 }
